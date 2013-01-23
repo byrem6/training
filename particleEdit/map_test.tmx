@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="384" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="海岸背景" tilewidth="32" tileheight="32">
+  <image source="new.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="769" name="树木1" tilewidth="32" tileheight="32">
+  <image source="1.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="1537" name="树木2" tilewidth="32" tileheight="32">
+  <image source="6.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="2305" name="树木3" tilewidth="32" tileheight="32">
+  <image source="4.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="3073" name="地面植被" tilewidth="32" tileheight="32">
+  <image source="7.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="最底下背景层" width="384" height="24">
+  <properties>
+   <property name="depth" value="80"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt3Gf/znUYx+F/RmYZZYuskJE9y4hsycxWNlGyScMqK9llFDJSVpS9VfaeFSKyR8pMSkeP4nfd+N44br8/D+B8nfHi4uLik4CEPEwiEpOEpCQjOY/wKClISSpS8xiPk4a0pCM9GchIJjLzBFnIypM8RLzQj7QfCxtCP/RDP5p+dnKQk1w8RW7ykJenyUd+ClCQZyhEYYpQlGIUpwQlKUVpylCWZ3mOcpSnAtlCP/J+LGwI/dAP/Wj6z1OJyrxAFapSjerUoCa1qM2L1OEl6lKP+jSgIY14mcY0oSnNaE4LWtKKV6gY+pH3Y2FD6Id+6EfTb00b2tKO9nSgI53ozGt0oSuv8wbdeJPu9KAnvehNH/rSj/68xQDe5h3e5T1eDf3I+7GwIfRDP/Sj6Q9iMEMYyvt8wDCGM4KRjOJDRvMRYxjLOMYzgYlM4mM+YTJTmMo0PuUzpjODgaEfeT8WNoR+6Id+NP3PmcVs5jCXL5jHl3zFfBawkEUs5muWsJRv+JZlLGcFK1nFatawlnWsZwMbmRn6kfdjYUPoh37oR9PfzHd8zw9sYSvb2M4OdrKL3exhL/vYzwEOcojDHOEoP/ITP3OM45zgF05yik2hH3k/FjaEfuiHfjT905zhN85yjvNc4CKXuMwVrnKN37nOH/zJDW5yi9vc4S5/cY+/uc8//MsD/j98+jX0I+/HwobQD/3Qj6Yfj/gkICEPk4jEJCEpyUjOIzxKClKSitQ8xuOkIS3pSE8GMpKJzDxBFrLyJA+FfuT9WNgQ+qEf+tH0s5ODnOTiKXKTh7w8TT7yU4CCPEMhClOEohSjOCUoSSlKU4ayPMtzlKM8FcgW+pH3Y2FD6Id+6EfTf55KVOYFqlCValSnBjWpRW1epA4vUZd61KcBDWnEyzSmCU1pRnNa0JJWvELF0I+8HwsbQj/0Qz+afmva0JZ2tKcDHelEZ16jC115nTfoxpt0pwc96UVv+tCXfvTnLQbwNu/wLu/xauhH3o+FDaEf+qEfTX8QgxnCUN7nA4YxnBGMZBQfMpqPGMNYxjGeCUxkEh/zCZOZwlSm8SmfMZ0ZDAz9yPuxsCH0Qz/0o+l/zixmM4e5fME8vuQr5rOAhSxiMV+zhKV8w7csYzkrWMkqVrOGtaxjPRvYyMzQj7wfCxtCP/RDP5r+Zr7je35gC1vZxnZ2sJNd7GYPe9nHfg5wkEMc5ghH+ZGf+JljHOcEv3CSU2wK/cj7sbAh9EM/9KPpn+YMv3GWc5znAhe5xGWucJVr/M51/uBPbnCTW9zmDnf5i3v8zX3+4V8e8P/T019DP/J+LGwI/dAP/Wj68YhPAhLyMIlITBKSkozkPMKjpCAlqUjNYzxOGtKSjvRkICOZyMwTZCErT/JQ6Efej4UNoR/6oR9NPzs5yEkuniI3ecjL0+QjPwUoyDMUojBFKEoxilOCkpSiNGUoy7M8RznKU4FsoR95PxY2hH7oh340/eepRGVeoApVqUZ1alCTWtTmRerwEnWpR30a0JBGvExjmtCUZjSnBS1pxStUDP3I+7GwIfRDP/Sj6bemDW1pR3s60JFOdOY1utCV13mDbrxJd3rQk170pg996Ud/3mIAb/MO7/Ier4Z+5P1Y2BD6oR/60fQHMZghDOV9PmAYwxnBSEbxIaP5iDGMZRzjmcBEJvExnzCZKUxlGp/yGdOZwcDQj7wfCxtCP/RDP5r+58xiNnOYyxfM40u+Yj4LWMgiFvM1S1jKN3zLMpazgpWsYjVrWMs61rOBjcwM/cj7sbAh9EM/9KPpb+Y7vucHtrCVbWxnBzvZxW72sJd97OcABznEYY5wlB/5iZ85xnFO8AsnOcWm0I+8HwsbQj/0Qz+a/mnO8BtnOcd5LnCRS1zmCle5xu9c5w/+5AY3ucVt7nCXv7jH39znH/7lAXHx4+J+Df3I+7GwIfRDP/Sj6f8HCn0TMw==
+  </data>
+ </layer>
+ <layer name="中间层-树木1" width="384" height="24">
+  <properties>
+   <property name="depth" value="50"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1PcXzXUcx3HZsoXIOrJKGcmeh+yVCpWMk5Gys7djy8qmjE6RkUJUGsZB2RVRNqe99949/oR+ut9zz3k/z3n8AZ/355xXxkwZMmQiM1nISjayk4OryUkucpOHvOQjPwW4hoIUojDXUoSiXEcxilOCkpQiSn2l3f16ylCWcpSnAjdwIxW5iZupRGWqUJVbqMatVKcGNalFbepQN/42itKmVOxBPerTgIY0io1IpMbu3oTbaEozmtOClrSiNW1oSzvaczsduIM7uYuOdKIzd3MP99Il/jaK0qZU7MF9dKUb3ekRG5FI97t7T3rRmz48QF8e5CH60Z8BDGQQgxnCwwxlGMMZwUhGMZoxjI2/jaK0KRV7MI7xTGAik2IjEmmyu09hKtOYzgxmMotHmM0c5jKP+TzKAhayiMUsYSnLWM4KHuPx+NsoSptSsQcrWcVq1vBEbEQiPenuT7GWdTzNejawkU08w2ae5Tm2sJVtPM92dvACL/ISO3mZV3g1/jaK0qZU7MFr7GI3e9gbG5FI+9x9Pwd4nTc4yCEOc4SjHOM4b/IWb3OCk7zDKU7zLu9xhrOc43z8bRSlTanYgwtc5BKXuRIbkUjvu/sHfMhHfMwnfMpnfM4XfMlXfM03fMt3fM8P/MhP/Mwv/Mpv/M4f8bdRlDalYg/+5C/+5h/+jY1IpKsyZ8iQkUxkJgtZyUZ2cnA1OclFbvKQl3zkpwDXUJBCFOZailCU6zIn/cooiv5vqdiDYhSnBCUpFRuRSKXd/XrKUJZylKcCN3AjFbmJm6lEZapQlVuoxq1UpwY1qUVt6lA3/jaK0qZU7EE96tOAhjSKjUikxu7ehNtoSjOa04KWtKI1bWhLO9pzOx24gzu5i450ojN3cw/30iX+NorSplTswX10pRvd6REbkUj3u3tPetGbPjxAXx7kIfrRnwEMZBCDGcLDDGUYwxnBSEYxmjGMjb+NorQpFXswjvFMYCKTYiMSabK7T2Eq05jODGYyi0eYzRzmMo/5PMoCFrKIxSxhKctYzgoe4/H42yhKm1KxBytZxWrW8ERsRCI96e5PsZZ1PM16NrCRTTzDZp7lObawlW08z3Z28AIv8hI7eZlXeDX+NorSplTswWvsYjd72BsbkUj73H0/B3idNzjIIQ5zhKMc4zhv8hZvc4KTvMMpTvMu73GGs5zjfPxtFKVNqdiDC1zkEpe5EhuRSO+7+wd8yEd8zCd8ymd8zhd8yVd8zTd8y3d8zw/8yE/8zC/8ym/8zh/xt1GUNqViD/7kL/7mH/6NjUikq7JkyJCRTGQmC1nJRnZycDU5yUVu8pCXfOSnANdQkEIU5lqKUJTrsiT9yiiK/m+p2INiFKcEJSkVG5FIpd39espQlnKUpwI3cCMVuYmbqURlqlCVW6jGrVSnBjWpRW3qUDf+NorSplTsQT3q04CGNIqNSKTG7t6E22hKM5rTgpa0ojVtaEs72nM7HbiDO7mLjnSiM3dzD/fSJf42itKmVOzBfXSlG93pERuRSPe7e0960Zs+PEBfHuQh+tGfAQxkEIMZwsMMZRjDGcFIRjGaMYyNv42itCkVezCO8UxgIpNiIxJpsrtPYSrTmM4MZjKLR5jNHOYyj/k8ygIWsojFLGEpy1jOCh7j8fjbKEqbUrEHK1nFatbwRGxEIj3p7k+xlnU8zXo2sJFNPMNmnuU5trCVbTzPdnbwAi/yEjt5mVd4Nf42itKmVOzBa+xiN3vYGxuRSPvcfT8HeJ03OMghDnOEoxzjOG/yFm9zgpO8wylO8y7vcYaznON8/G0UpU2p2IMLXOQSl7kSGxFFURRFURRFifQfXZF5XA==
+  </data>
+ </layer>
+ <layer name="中间层-树木2" width="384" height="24">
+  <properties>
+   <property name="depth" value="50"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="中间层-树木3" width="384" height="24">
+  <properties>
+   <property name="depth" value="50"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1lWOlVsQgNGD0924DIDG3QeA07gOAHeHAeBOYz0A3B0GgLvDAHB3eL9rCpdA2H92fcl63MnJqcqfKpWiKPpT1SorlWpTh7rUoz4NaEgZ5VTQiMY0oSnNaE4LWtKK1mX//zcM8GYggxjMEIYyjOFUMYKRjGI0YxjLOMYzgYlMYvJv/IZ/WQoziPIudjDP2phTJW1pR3s60JFOdKYLXelGd3rQk170pg996Uf/35j7FG+mMo3pzGAms5jNHOYyj/ksYCGLWMwSlrKM5awo2O6lMIMo72IH8yyF23ulN6tYzRrWso71bGAjm9jMFrayjWq2s4Od7GI3NQXbvRRmEOVd7GCepXB77/FmL/vYzwEOcojDHOEoxzjOCU5yitOc4SznOM+Fgu1eCjOI8i52MM9SuL0venOJy1zhKte4zg1ucovb3OEu97jPAx7yiMc84WnBdi+FGUR5FzuYZync3s+8ec4LXvKK17zhLe94zwc+8onPfOEr3/jOD37yq2C7l8IMoryLHcyzFG7vWuWlUm3qUJd61KcBDSmjnAoa0ZgmNKUZzWlBS1rRuvzP/09/sxRmEOVd7GCepXB7t/G9rqQt7WhPBzrSic50oSvd6E4PetKL3vShL/3oX7DvfwoziPIudjDPUri9B3gzkEEMZghDGcZwqhjBSEYxmjGMZRzjmcBEJjG5YN//FGYQ5V3sYJ6lcHtP8WYq05jODGYyi9nMYS7zmM8CFrKIxSxhKctYzoqC7V4KM4jyLnYwz1K4vVd6s4rVrGEt61jPBjayic1sYSvbqGY7O9jJLnZTU7DdS2EGUd7FDuZZCrf3Hm/2so/9HOAghzjMEY5yjOOc4CSnOM0ZznKO81wo2O6lMIMo72IH8yyF2/uiN5e4zBWuco3r3OAmt7jNHe5yj/s84CGPeMwTnhZs91KYQZR3sYN5lsLt/cyb57zgJa94zRve8o73fOAjn/jMF77yje/84Ce/CrZ7KcwgyrvYwTxL4fauVVEq1aYOdalHfRrQkDLKqaARjWlCU5rRnBa0pBWtK/78//Q3S2EGUd7FDuZZCrd3G9/rStrSjvZ0oCOd6EwXutKN7vSgJ73oTR/60o/+Bfv+pzCDKO9iB/Mshdt7gDcDGcRghjCUYQynihGMZBSjGcNYxjGeCUxkEpML9v1PYQZR3sUO5lkKt/cUb6YyjenMYCazmM0c5jKP+SxgIYtYzBKWsozlrCjY7qUwgyjvYgfzLIXbe6U3q1jNGtayjvVsYCOb2MwWtrKNarazg53sYjc1Bdu9FGYQ5V3sYJ6lcHvv8WYv+9jPAQ5yiMMc4SjHOM4JTnKK05zhLOc4z4WC7V4KM4jyLnYwz3K/vVMoZhD962IH8yz32zuFYgbRvy52MIqiKIqiKEqx/wCDxnq2
+  </data>
+ </layer>
+ <layer name="中间层-树木3副本" width="384" height="24">
+  <properties>
+   <property name="depth" value="50"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0mVSVwEUxuG/LWDHAkxURMwFiN3JAkRFxQ4WYGG3LACwAwldgN2tC7C79bvPBu43Zph75/xmngWceU8uF7VWA/JyuYEMYjBDGEohwxjOCIoYSTGjKGE0YxjLOMYzIa+tL4pau/iRdBf7RUlNtGUpk5jMFKYyjenMYCazmM0c5jKP+SxgIYtYTFn8RuaKH0l3sV+U1BJblrOUZSynghWsZBWVrGYNa1nHejawkU1sZgtV8RuZK34k3cV+UVJbbbmN7exgJ9XsYjd72Ms+9nOAgxziMEc4yjGOUxO/kbniR9Jd7BclVWvLOuo5wUlOcZoznOUc57nARRq4RCNNNNPCZa7Eb2Su+JF0F/tFSV215TWuc4Ob3OI2d7jLPe7zgIc84jFPeMoznvOCl/EbmSt+JN3FflFSr2z5mje85R3v+cBHPvGZL3zlG9/5wU9+8Zs//OVf/Ebmih9Jd7FflFS7/FyuPR3oSCc604Wu5JFPAd3oTg960ove9KEv/eif39YXRa1d/Ei6i/2ipAbYciCDGMwQhlLIMIYzgiJGUswoShjNGMYyjvFMiN/IXPEj6S72i5KaaMtSJjGZKUxlGtOZwUxmMZs5zGUe81nAQhaxmLL4jcwVP5LuYr8oqSW2LGcpy1hOBStYySoqWc0a1rKO9WxgI5vYzBaq4jcyV/xIuov9oqS22nIb29nBTqrZxW72sJd97OcABznEYY5wlGMcpyZ+I3PFj6S72C9KqtaWddRzgpOc4jRnOMs5znOBizRwiUaaaKaFy1yJ38hc8SPpLvaLkrpqy2tc5wY3ucVt7nCXe9znAQ95xGOe8JRnPOcFL+M3Mlf8SLqL/aKkXtnyNW94yzve84GPfOIzX/jKN77zg5/84jd/+Mu/+I3MFT+S7mK/KKl2BblcezrQkU50pgtdySOfArrRnR70pBe96UNf+tG/oK0vilq7+JF0F/tFSQ2w5UAGMZghDKWQYQxnBEWMpJhRlDCaMYxlHOOZEL+RueJH0l3sFyU10ZalTGIyU5jKNKYzg5nMYjZzmMs85rOAhSxiMWXxG5krfiTdxX5RUktsWc5SlrGcClawklVUspo1rGUd69nARjaxmS1UxW9krviRdBf7RUltteU2trODnVSzi93sYS/72M8BDnKIwxzhKMc4Tk38RuaKH0l3sV+UVK0t66jnBCc5xWnOcJZznOcCF2ngEo000UwLl7kSv5G54kfSXewXRVEURVEURVEURVEUpan/t7ebhw==
+  </data>
+ </layer>
+ <layer name="中间层-地面植被" width="384" height="24">
+  <properties>
+   <property name="depth" value="40"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1mdSFEEYh/GpMn1wd/UMSlDBcAZJKhjOIEkFwxkkqWA4gyTTKdykguEMblLBcASfL3yZqqlpx+6lZ/j/qp5vbFfPW29XEQQiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIpI1xVwQlKhMFarmdvtGIrJD71NcqrFPdWpQk1raLxFv6H2KS/vyQbCfDtBBOpTf7RuJyA69TzGxwf8Fm/SRPtFn+mLwv8Jx9qmDOqmLuiP2K+n5aZDlb/sfmos9rt9nu+/VDq7v5vO3/6st7r1NP+kX/aY/Bt/Sxz710wAN0lDEfsWdf6zArlIHdVIXddMJOkmnqId6C3a+16aks8s6W3NJ827Y4vp9hpnO3Ofdd3030/PTsL+H2Ysc5alAR+iowa6M8jdjNE4TNBnxm7jzz/PtfdRPAzRIQ3SBLtIlGqYRD9940tllna25pHk3bHH9PsNMZ+7z7ru+m+n5adjfHu7dS6fpDJ2lcwazmuFvZmmO5mkh4jdx51/n20dpjMZpgibpBt2kWzRF0x6+8aSzyzpbc0nzbtji+n2Gmc7c5913fTfT89Owv8Pce4Qu0xW6StcMZrXM36zQKq3ResRv4s6/z7fP0CzN0Twt0AN6SI9okZY8fONJZ5d1tuaS5t2wxfX7DDOduc+77/pupuenYX+nuPc03aY7dJfuGcyqyN+UqEwVqkb8Ju7853z7Mq3QKq3ROr2gl/SKXtMbD9940tllna25pHk3bHH9PsNMZ+7z7ru+m+n5adjfRe69RI/pCT2lZwazqvE3dWpQk1oRv4k7/y3fXqQSlalCVXpH7+kDbdCmh2886eyyztZc0rwbtrh+n2GmM/d5913fzfR87W+8r3x7jerUoCa16Bt9px+0Rdt7eEZ7lXaj/TRzezRLERERERERERFpt79pAZa0
+  </data>
+ </layer>
+ <layer name="地面" width="384" height="24">
+  <properties>
+   <property name="depth" value="40"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztyMlRQlEARcGXwGePDHkgQx6gkocK5MGYh6DmpQLlJQWWr7qrzuaUAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMA9fptS/tI5XdI1/TS+7/t+zf/moVVKJ3VTL/VTu+X7vu/X/h/TMI3SOE3SwPd936/+z9JTek4vaZ6mvu/7fvX/Lb2nRVqmVXr1fd/3q/+btE27tE+HtPZ93/er/8d0Sp/pK32nD9/3fb/6/w/Y9NGG
+  </data>
+ </layer>
+ <layer name="地面上层植被" width="384" height="24">
+  <properties>
+   <property name="depth" value="40"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0sdNADEQhtG9s6Q6yHWQ6yDXQa6D3CH/nYsly2JtvSd995nRTBMAAAAAAAAAAAAAAAAAAAAAAAAAANCrlXma5rSa1tJ62kib839P9ldPs9ay65i7Us5ftLeVW26nnbSb9tJ+OljgjXuatZZdx9yVcv6ivcPc8igdp5N0ms7S+QJv3NOstew65q6U8xftXeSWl+kqXaebdJvuFnjjnmatZdcxd6Wcv2jvPrd8SI/pKT2nl/S6wBv3NGstu465K+X8RXtvueV7+kif6St9p58F3rinWWvZdcxdKecvAAAAAACAEf0CvbJW9Q==
+  </data>
+ </layer>
+</map>
